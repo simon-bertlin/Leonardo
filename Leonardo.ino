@@ -132,7 +132,7 @@ void setup() {
 }
 
 void loop() {
-  //Do nothing until we cable is pulled.
+  //Do nothing until the cable is pulled.
   while (digitalRead(2)) {
     delay(500);
   }
